@@ -1,0 +1,38 @@
+/*BARRA DE NAVEGACION*/
+.navbar {
+    padding: 1rem;
+    background-color:rgba(135, 204, 206, 0.611);
+    font-size: 20px ;
+}
+
+nav div a {
+    mix-blend-mode: color-burn;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Media query para ocultar el icono en la barra de navegacion responsive*/
+@media  screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+
+/*SECCION PRINCIPAL*/
+
+#container{
+    
+    background-color:   mintcream;
+    
+}
+
+.slogan{
+display: grid;
+align-items: center;
+justify-items: center;
+
+}
