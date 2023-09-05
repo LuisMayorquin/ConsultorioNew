@@ -1,13 +1,20 @@
-/*BARRA DE NAVEGACION*/
-.navbar {
-    padding: 1rem;
-    background-color:rgba(135, 204, 206, 0.611);
-    font-size: 20px ;
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*overflow-x: hidden;*/
 }
 
-nav div a {
-    mix-blend-mode: color-burn;
+/*BARRA DE NAVEGACION*/
+.navbar {
+    background-color:rgba(168, 220, 222, 0.718);
+    font-size: 20px ;
+    font-family: 'Montserrat' bold;
+    font-weight: 50px;
 }
+
+
 
 .navbar-collapse {
     align-items: center;
@@ -22,17 +29,9 @@ nav div a {
 }
 
 
-/*SECCION PRINCIPAL*/
-
-#container{
-    
-    background-color:   mintcream;
+/*SECCION SLIDER DE IMAGENES*/
+.carousel-inner {
+    max-height: 39rem;
     
 }
 
-.slogan{
-display: grid;
-align-items: center;
-justify-items: center;
-
-}
